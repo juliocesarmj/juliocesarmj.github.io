@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  height: 100vh;
+}
+body {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(180deg, #364dcc 0%, #1a2a83 100%);
+}
+.avatar {
+  max-width: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+h1 {
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 16px;
+}
+.profile {
+  text-align: center;
+  padding-top: 10px;
+}
+.social-media {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 20px 0;
+}
+.social-media li a {
+  padding: 7px;
+}
+.social-media li a img {
+  max-width: 33px;
+}
+/*Informativos*/
+.link-list {
+  list-style: none;
+}
+.link-list li {
+  margin: 8px 12px;
+}
+.link-list li a {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+  display: block;
+  transition: 0.3s;
+}
+.link-list li a:hover {
+  background: #e0e2f1;
+}
+.link-list li a span {
+  display: block;
+  color: #a09d9d;
+}
+.link-list li a h3 {
+  padding-bottom: 5px;
+  color: #364dcc;
+}
+@media (max-width: 600px) {
+  .link-list li a {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+  }
+  .link-list li a h3 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .profile h1 {
+    font-size: 1.2rem;
+  }
+  .profile h2 {
+    font-size: 0.875rem;
+  }
+  .social-media {
+    gap: 2.5rem;
+  }
+}
